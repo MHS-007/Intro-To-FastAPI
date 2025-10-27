@@ -15,12 +15,18 @@ This repository contains:
 
 ### Installation & Setup
 
-1. **Create a virtual environment** (recommended):
+1. **Clone the repository**:
+```bash
+git clone https://github.com/MHS-007/Intro-To-FastAPI.git
+cd Intro-To-FastAPI
+```
+
+2. **Create a virtual environment** (recommended):
 ```bash
 python -m venv venv
 ```
 
-2. **Activate the virtual environment**:
+3. **Activate the virtual environment**:
    - On Windows (PowerShell):
    ```bash
    .\venv\Scripts\Activate.ps1
@@ -34,7 +40,7 @@ python -m venv venv
    source venv/bin/activate
    ```
 
-3. **Install dependencies**:
+4. **Install dependencies**:
 ```bash
 pip install -r requirements.txt
 ```
